@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "ya1N5Xwh/jYo6NNelcLEHJHIvXtpmIjI8kyoaraKKAOItLfhjKv8GXcxgN/FI0PTjbNWcBQgvg8Hw0yaSNOENw==",
+  "success": false,
+  "projectFilePath": "D:\\uni\\dotnetmicroservice\\Mainservice\\FUM.MainService\\FUM.MainService.Api.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\uni\\dotnetmicroservice\\Mainservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\uni\\dotnetmicroservice\\Mainservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\uni\\dotnetmicroservice\\Mainservice\\Common\\FUM.BaseCommon.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\uni\\dotnetmicroservice\\Mainservice\\Common\\FUM.BaseCommon.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
