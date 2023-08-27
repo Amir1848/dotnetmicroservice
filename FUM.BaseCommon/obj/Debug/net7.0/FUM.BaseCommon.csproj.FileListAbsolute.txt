@@ -1,0 +1,11 @@
+D:\uni\dotnetmicroservice\FUM.BaseCommon\bin\Debug\net7.0\FUM.BaseCommon.deps.json
+D:\uni\dotnetmicroservice\FUM.BaseCommon\bin\Debug\net7.0\FUM.BaseCommon.dll
+D:\uni\dotnetmicroservice\FUM.BaseCommon\bin\Debug\net7.0\FUM.BaseCommon.pdb
+D:\uni\dotnetmicroservice\FUM.BaseCommon\obj\Debug\net7.0\FUM.BaseCommon.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\dotnetmicroservice\FUM.BaseCommon\obj\Debug\net7.0\FUM.BaseCommon.AssemblyInfoInputs.cache
+D:\uni\dotnetmicroservice\FUM.BaseCommon\obj\Debug\net7.0\FUM.BaseCommon.AssemblyInfo.cs
+D:\uni\dotnetmicroservice\FUM.BaseCommon\obj\Debug\net7.0\FUM.BaseCommon.csproj.CoreCompileInputs.cache
+D:\uni\dotnetmicroservice\FUM.BaseCommon\obj\Debug\net7.0\FUM.BaseCommon.dll
+D:\uni\dotnetmicroservice\FUM.BaseCommon\obj\Debug\net7.0\refint\FUM.BaseCommon.dll
+D:\uni\dotnetmicroservice\FUM.BaseCommon\obj\Debug\net7.0\FUM.BaseCommon.pdb
+D:\uni\dotnetmicroservice\FUM.BaseCommon\obj\Debug\net7.0\ref\FUM.BaseCommon.dll

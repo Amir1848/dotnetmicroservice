@@ -1,0 +1,17 @@
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\bin\Debug\net7.0\FUM.BaseBusiness.deps.json
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\bin\Debug\net7.0\FUM.BaseBusiness.runtimeconfig.json
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\bin\Debug\net7.0\FUM.BaseBusiness.dll
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\bin\Debug\net7.0\FUM.BaseBusiness.pdb
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\bin\Debug\net7.0\FUM.BaseCommon.dll
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\bin\Debug\net7.0\FUM.BaseCommon.pdb
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.csproj.AssemblyReference.cache
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.AssemblyInfoInputs.cache
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.AssemblyInfo.cs
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.csproj.CoreCompileInputs.cache
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.csproj.CopyComplete
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.dll
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\refint\FUM.BaseBusiness.dll
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.pdb
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\FUM.BaseBusiness.genruntimeconfig.cache
+D:\uni\dotnetmicroservice\FUM.BaseBusiness\obj\Debug\net7.0\ref\FUM.BaseBusiness.dll

@@ -19,6 +19,5 @@ namespace Common
         void Delete(TEntity entity, bool saveChanges = true);
         void Delete(long id);
         TViewModel FetchViewModelByID(long id);
-        IQueryable<TViewModel> GetEntityViewModelQuery();
     }
 }
