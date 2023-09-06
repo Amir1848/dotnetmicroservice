@@ -1,6 +1,5 @@
 E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\appsettings.Development.json
 E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\appsettings.json
-E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\Properties\ocelot.json
 E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\MainGateway.exe
 E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\MainGateway.deps.json
 E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\MainGateway.runtimeconfig.json
@@ -35,3 +34,4 @@ E:\dotnetmicroservice\MainGateway\MainGateway\obj\Debug\net7.0\refint\MainGatewa
 E:\dotnetmicroservice\MainGateway\MainGateway\obj\Debug\net7.0\MainGateway.pdb
 E:\dotnetmicroservice\MainGateway\MainGateway\obj\Debug\net7.0\MainGateway.genruntimeconfig.cache
 E:\dotnetmicroservice\MainGateway\MainGateway\obj\Debug\net7.0\ref\MainGateway.dll
+E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\ocelot.json

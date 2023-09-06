@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "student/get?id={id}",
+      "DownstreamPathTemplate": "/student/get?id={id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -9,7 +9,7 @@
           "Port": 5238
         }
       ],
-      "UpstreamPathTemplate": "api/student/get/{id}",
+      "UpstreamPathTemplate": "/api/student/get/{id}",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
