@@ -1,0 +1,17 @@
+D:\uni\dotnetmicroservice\FUM.BaseApi\bin\Debug\net7.0\FUM.BaseApi.deps.json
+D:\uni\dotnetmicroservice\FUM.BaseApi\bin\Debug\net7.0\FUM.BaseApi.dll
+D:\uni\dotnetmicroservice\FUM.BaseApi\bin\Debug\net7.0\FUM.BaseApi.pdb
+D:\uni\dotnetmicroservice\FUM.BaseApi\bin\Debug\net7.0\FUM.BaseBusiness.dll
+D:\uni\dotnetmicroservice\FUM.BaseApi\bin\Debug\net7.0\FUM.BaseCommon.dll
+D:\uni\dotnetmicroservice\FUM.BaseApi\bin\Debug\net7.0\FUM.BaseBusiness.pdb
+D:\uni\dotnetmicroservice\FUM.BaseApi\bin\Debug\net7.0\FUM.BaseCommon.pdb
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\FUM.BaseApi.csproj.AssemblyReference.cache
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\FUM.BaseApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\FUM.BaseApi.AssemblyInfoInputs.cache
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\FUM.BaseApi.AssemblyInfo.cs
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\FUM.BaseApi.csproj.CoreCompileInputs.cache
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\FUM.BaseApi.csproj.CopyComplete
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\FUM.BaseApi.dll
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\refint\FUM.BaseApi.dll
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\FUM.BaseApi.pdb
+D:\uni\dotnetmicroservice\FUM.BaseApi\obj\Debug\net7.0\ref\FUM.BaseApi.dll

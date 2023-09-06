@@ -1,0 +1,17 @@
+D:\uni\dotnetmicroservice\General\General.Common\bin\Debug\net7.0\General.Common.deps.json
+D:\uni\dotnetmicroservice\General\General.Common\bin\Debug\net7.0\General.Common.dll
+D:\uni\dotnetmicroservice\General\General.Common\bin\Debug\net7.0\General.Common.pdb
+D:\uni\dotnetmicroservice\General\General.Common\bin\Debug\net7.0\FUM.BaseBusiness.dll
+D:\uni\dotnetmicroservice\General\General.Common\bin\Debug\net7.0\FUM.BaseCommon.dll
+D:\uni\dotnetmicroservice\General\General.Common\bin\Debug\net7.0\FUM.BaseBusiness.pdb
+D:\uni\dotnetmicroservice\General\General.Common\bin\Debug\net7.0\FUM.BaseCommon.pdb
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.csproj.AssemblyReference.cache
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.AssemblyInfoInputs.cache
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.AssemblyInfo.cs
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.csproj.CoreCompileInputs.cache
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.csproj.CopyComplete
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.dll
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\refint\General.Common.dll
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.pdb
+D:\uni\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\ref\General.Common.dll
