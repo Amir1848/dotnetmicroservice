@@ -6540,19 +6540,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amir\\.nuget\\packages\\": {}
+    "C:\\Users\\amirhes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
+      "projectUniqueName": "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
       "projectName": "FUM.BaseApi",
-      "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
-      "packagesPath": "C:\\Users\\Amir\\.nuget\\packages\\",
-      "outputPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\obj\\",
+      "projectPath": "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
+      "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+      "outputPath": "E:\\dotnetmicroservice\\FUM.BaseApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6560,18 +6560,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org/api/v2": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
-              "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
+            "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
+              "projectPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
             },
-            "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
-              "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
+            "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
+              "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
             }
           }
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\uni\\dotnetmicroservice\\General\\General.Api\\General.Api.csproj": {}
+    "E:\\dotnetmicroservice\\General\\General.Api\\General.Api.csproj": {}
   },
   "projects": {
-    "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj": {
+    "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
+        "projectUniqueName": "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
         "projectName": "FUM.BaseApi",
-        "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
-        "packagesPath": "C:\\Users\\Amir\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\obj\\",
+        "projectPath": "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
+        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnetmicroservice\\FUM.BaseApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
               },
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
               }
             }
           }
@@ -77,17 +76,17 @@
         }
       }
     },
-    "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
+    "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj",
+        "projectUniqueName": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj",
         "projectName": "FUM.BaseBusiness",
-        "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj",
-        "packagesPath": "C:\\Users\\Amir\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\obj\\",
+        "projectPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj",
+        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,15 +94,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
               }
             }
           }
@@ -157,17 +155,17 @@
         }
       }
     },
-    "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
+    "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
+        "projectUniqueName": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
         "projectName": "FUM.BaseCommon",
-        "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
-        "packagesPath": "C:\\Users\\Amir\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\obj\\",
+        "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
+        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -175,8 +173,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -213,17 +210,17 @@
         }
       }
     },
-    "D:\\uni\\dotnetmicroservice\\General\\General.Api\\General.Api.csproj": {
+    "E:\\dotnetmicroservice\\General\\General.Api\\General.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\dotnetmicroservice\\General\\General.Api\\General.Api.csproj",
+        "projectUniqueName": "E:\\dotnetmicroservice\\General\\General.Api\\General.Api.csproj",
         "projectName": "General.Api",
-        "projectPath": "D:\\uni\\dotnetmicroservice\\General\\General.Api\\General.Api.csproj",
-        "packagesPath": "C:\\Users\\Amir\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\dotnetmicroservice\\General\\General.Api\\obj\\",
+        "projectPath": "E:\\dotnetmicroservice\\General\\General.Api\\General.Api.csproj",
+        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnetmicroservice\\General\\General.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -231,27 +228,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj"
               },
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
               },
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
               },
-              "D:\\uni\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj"
+              "E:\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj"
               },
-              "D:\\uni\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj"
+              "E:\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj"
               }
             }
           }
@@ -267,6 +263,12 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
             },
@@ -298,17 +300,17 @@
         }
       }
     },
-    "D:\\uni\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj": {
+    "E:\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj",
+        "projectUniqueName": "E:\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj",
         "projectName": "General.Business",
-        "projectPath": "D:\\uni\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj",
-        "packagesPath": "C:\\Users\\Amir\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\dotnetmicroservice\\General\\General.Business\\obj\\",
+        "projectPath": "E:\\dotnetmicroservice\\General\\General.Business\\General.Business.csproj",
+        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnetmicroservice\\General\\General.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -316,21 +318,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
               },
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
               },
-              "D:\\uni\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj"
+              "E:\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj"
               }
             }
           }
@@ -364,17 +365,17 @@
         }
       }
     },
-    "D:\\uni\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj": {
+    "E:\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj",
+        "projectUniqueName": "E:\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj",
         "projectName": "General.Common",
-        "projectPath": "D:\\uni\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj",
-        "packagesPath": "C:\\Users\\Amir\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\dotnetmicroservice\\General\\General.Common\\obj\\",
+        "projectPath": "E:\\dotnetmicroservice\\General\\General.Common\\General.Common.csproj",
+        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnetmicroservice\\General\\General.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -382,18 +383,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj"
               },
-              "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
-                "projectPath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
+              "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj": {
+                "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BAbbrddUZ1/1m/X85V5NXInjP4bs7bLcJq8GNkuFQ2ejiEMelOqpwdwwAQ/jfbksKoQ0SZKPNlqV3nILTqaq5w==",
+  "dgSpecHash": "uGPQ/CiHWz9mDTM0iq2w/ICDXIF5DOQ4zQppwU7JzOebt8mm5JG+V6ruuA3rFlddZ7JgHSq5CZtVolaTOau1kQ==",
   "success": true,
-  "projectFilePath": "D:\\uni\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
+  "projectFilePath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

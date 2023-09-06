@@ -10,7 +10,7 @@ using General.Common;
 
 namespace General.Business
 {
-    public class StudentService : ServiceBase<Student, StudentViewModel, GeneralDbContext>
+    public class StudentService : ServiceBase<Student, StudentViewModel, GeneralDbContext>, IStudentService
     {
         public StudentService(GeneralDbContext ctx): base(ctx)
         {
