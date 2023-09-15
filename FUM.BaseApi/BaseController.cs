@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace FUM.BaseApi
 {
+    [ApiController]
+    [Route("/[controller]/[action]")]
     public class FumControllerBase<TEntity, TViewModel, TService> : ControllerBase
         where TEntity : Entity
         where TViewModel : IViewModel

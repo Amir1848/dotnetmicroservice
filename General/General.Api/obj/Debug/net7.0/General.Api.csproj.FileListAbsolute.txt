@@ -120,3 +120,4 @@ E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Humanizer.dll
 E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
 E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\System.CodeDom.dll
+E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\RabbitMQ.Client.dll

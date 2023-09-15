@@ -40,9 +40,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MMLib.SwaggerForOcelot": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Ocelot": {
               "target": "Package",
               "version": "[19.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

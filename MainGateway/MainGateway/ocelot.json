@@ -10,7 +10,20 @@
         }
       ],
       "UpstreamPathTemplate": "/api/student/get/{id}",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "general",
+      "Config": [
+        {
+          "Name": "FUM General API",
+          "Version": "v1",
+          "Url": "http://localhost:5238/swagger/v1/swagger.json"
+        }
+      ]
     }
   ],
   "GlobalConfiguration": {

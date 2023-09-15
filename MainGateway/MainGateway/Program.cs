@@ -1,5 +1,6 @@
 using Ocelot.Middleware;
 using Ocelot.DependencyInjection;
+using Ocelot.Values;
 
 new WebHostBuilder()
             .UseKestrel()
@@ -13,8 +14,11 @@ new WebHostBuilder()
                     .AddJsonFile("ocelot.json")
                     .AddEnvironmentVariables();
             })
-            .ConfigureServices(s => {
+            .ConfigureServices((b,s) => {
+                s.AddMvcCore().AddApiExplorer();
                 s.AddOcelot();
+                s.AddSwaggerGen();
+                s.AddSwaggerForOcelot(b.Configuration);
             })
             .ConfigureLogging((hostingContext, logging) =>
             {
@@ -23,7 +27,16 @@ new WebHostBuilder()
             .UseIISIntegration()
             .Configure(app =>
             {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+
                 app.UseOcelot().Wait();
+
+
+                app.UseSwaggerForOcelotUI(opt =>
+                {
+                    opt.PathToSwaggerGenerator = "/ocelot.json";
+                });
             })
             .Build()
             .Run();

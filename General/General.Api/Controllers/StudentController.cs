@@ -11,5 +11,12 @@ namespace General.Api.Controllers
     {
 
         public StudentController(IStudentService service): base(service) { }
+
+        //[Route("/student/hassan")]
+        //[HttpGet]
+        //public string Hassan()
+        //{
+        //    return "salam hassan";
+        //}
     }
 }
