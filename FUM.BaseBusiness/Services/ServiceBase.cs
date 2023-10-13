@@ -72,5 +72,10 @@ namespace FUM.BaseBusiness.Services
             var entity = Where(p => p.ID == id).Single();
             Delete(entity);
         }
+
+        public TEntity FetchEntityByID(long id)
+        {
+            return Where(p => p.ID == id).Single();
+        }
     }
 }

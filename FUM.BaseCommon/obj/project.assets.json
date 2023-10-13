@@ -8,7 +8,7 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\amirhes\\.nuget\\packages\\": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
       "projectName": "FUM.BaseCommon",
       "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
-      "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -14,6 +14,9 @@ namespace General.Common
     {
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Term> Terms { get; set; }
+        public virtual DbSet<Course> Courses { get; set; }
+        public virtual DbSet<StudentCourse> StudentCourse { get; set; }
+        public virtual DbSet<Lesson> Lesson { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

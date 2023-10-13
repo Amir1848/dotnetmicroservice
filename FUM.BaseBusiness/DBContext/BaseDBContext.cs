@@ -15,7 +15,7 @@ namespace FUM.BaseBusiness.DBContext
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder); 
-            optionsBuilder.LogTo(sendLogToServiceLogger, LogLevel.Information);
+            optionsBuilder.LogTo(sendLogToServiceLogger, LogLevel.Debug);
         }
             
 

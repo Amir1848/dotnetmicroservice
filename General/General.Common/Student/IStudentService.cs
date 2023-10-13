@@ -9,5 +9,6 @@ namespace General.Common
 {
     public interface IStudentService: IServiceBase<Student, StudentViewModel>
     {
+        void AddStudentToCourse(List<StudentCourse> studentCourses);
     }
 }

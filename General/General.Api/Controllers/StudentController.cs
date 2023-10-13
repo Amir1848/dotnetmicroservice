@@ -12,11 +12,11 @@ namespace General.Api.Controllers
 
         public StudentController(IStudentService service): base(service) { }
 
-        //[Route("/student/hassan")]
-        //[HttpGet]
-        //public string Hassan()
-        //{
-        //    return "salam hassan";
-        //}
+        [HttpPost]
+        public IActionResult AddStudentToClass([FromBody] List<StudentCourse> studentCourses)
+        {
+            this._service.AddStudentToCourse(studentCourses);
+            return Ok();
+        }
     }
 }

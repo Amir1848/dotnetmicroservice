@@ -32,3 +32,5 @@ E:\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.dll
 E:\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\refint\General.Common.dll
 E:\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.pdb
 E:\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\ref\General.Common.dll
+E:\dotnetmicroservice\General\General.Common\bin\Debug\net7.0\General.Common.runtimeconfig.json
+E:\dotnetmicroservice\General\General.Common\obj\Debug\net7.0\General.Common.genruntimeconfig.cache

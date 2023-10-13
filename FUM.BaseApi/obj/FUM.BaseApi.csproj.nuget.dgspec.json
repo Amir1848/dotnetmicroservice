@@ -10,11 +10,11 @@
         "projectUniqueName": "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
         "projectName": "FUM.BaseApi",
         "projectPath": "E:\\dotnetmicroservice\\FUM.BaseApi\\FUM.BaseApi.csproj",
-        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
         "outputPath": "E:\\dotnetmicroservice\\FUM.BaseApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -82,11 +82,11 @@
         "projectUniqueName": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj",
         "projectName": "FUM.BaseBusiness",
         "projectPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\FUM.BaseBusiness.csproj",
-        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
         "outputPath": "E:\\dotnetmicroservice\\FUM.BaseBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,13 +118,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.12, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -155,7 +155,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -165,11 +165,11 @@
         "projectUniqueName": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
         "projectName": "FUM.BaseCommon",
         "projectPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\FUM.BaseCommon.csproj",
-        "packagesPath": "C:\\Users\\amirhes\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
         "outputPath": "E:\\dotnetmicroservice\\FUM.BaseCommon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amirhes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,7 +210,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

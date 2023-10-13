@@ -14,6 +14,7 @@ namespace General.Api
             builder.Services.AddDbContext<GeneralDbContext>();
             builder.Services.AddScoped<IStudentService, StudentService>();
             builder.Services.AddScoped<ITermService, TermService>();
+            builder.Services.AddScoped<ICourseService, CourseService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

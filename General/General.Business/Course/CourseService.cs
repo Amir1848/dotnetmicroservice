@@ -8,7 +8,23 @@ using System.Threading.Tasks;
 
 namespace General.Business
 {
-    public class CourseService : ServiceBase<Course, StudentViewModel, GeneralDbContext>, IStudentService
+    public class CourseService : ServiceBase<Course, CourseViewModel, GeneralDbContext>, ICourseService
     {
+
+        public CourseService(GeneralDbContext ctx) :base(ctx)
+        {
+
+        }
+
+        public override CourseViewModel FetchByID(long id)
+        {
+            return FetchAll().Where(p => p.ID == id).Select(propa => new CourseViewModel
+            {
+                ID = propa.ID,
+                Code = propa.Code,  
+                Description = propa.Description,
+                Title = propa.Title 
+            }).SingleOrDefault();
+        }
     }
 }
