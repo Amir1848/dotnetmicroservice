@@ -1,0 +1,52 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/student/get?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/get/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/student/Save",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/save",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/student/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/update",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/student/Delete?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ]
+    }
+  ]
+}

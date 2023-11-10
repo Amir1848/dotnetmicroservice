@@ -13,3 +13,5 @@ E:\dotnetmicroservice\Calculations\Calculations.Common\obj\Debug\net7.0\Calculat
 E:\dotnetmicroservice\Calculations\Calculations.Common\obj\Debug\net7.0\refint\Calculations.Common.dll
 E:\dotnetmicroservice\Calculations\Calculations.Common\obj\Debug\net7.0\Calculations.Common.pdb
 E:\dotnetmicroservice\Calculations\Calculations.Common\obj\Debug\net7.0\ref\Calculations.Common.dll
+E:\dotnetmicroservice\Calculations\Calculations.Common\bin\Debug\net7.0\Calculations.Common.runtimeconfig.json
+E:\dotnetmicroservice\Calculations\Calculations.Common\obj\Debug\net7.0\Calculations.Common.genruntimeconfig.cache

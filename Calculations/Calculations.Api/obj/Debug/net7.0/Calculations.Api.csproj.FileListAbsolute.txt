@@ -11,14 +11,12 @@ E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\System.Web.
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\System.Web.WebPages.dll
-E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
-E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Newtonsoft.Json.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Npgsql.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
@@ -54,3 +52,7 @@ E:\dotnetmicroservice\Calculations\Calculations.Api\obj\Debug\net7.0\refint\Calc
 E:\dotnetmicroservice\Calculations\Calculations.Api\obj\Debug\net7.0\Calculations.Api.pdb
 E:\dotnetmicroservice\Calculations\Calculations.Api\obj\Debug\net7.0\Calculations.Api.genruntimeconfig.cache
 E:\dotnetmicroservice\Calculations\Calculations.Api\obj\Debug\net7.0\ref\Calculations.Api.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Humanizer.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\System.CodeDom.dll

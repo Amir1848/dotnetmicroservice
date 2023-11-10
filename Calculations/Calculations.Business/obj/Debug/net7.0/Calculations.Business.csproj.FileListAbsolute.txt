@@ -17,3 +17,5 @@ E:\dotnetmicroservice\Calculations\Calculations.Business\obj\Debug\net7.0\Calcul
 E:\dotnetmicroservice\Calculations\Calculations.Business\obj\Debug\net7.0\refint\Calculations.Business.dll
 E:\dotnetmicroservice\Calculations\Calculations.Business\obj\Debug\net7.0\Calculations.Business.pdb
 E:\dotnetmicroservice\Calculations\Calculations.Business\obj\Debug\net7.0\ref\Calculations.Business.dll
+E:\dotnetmicroservice\Calculations\Calculations.Business\bin\Debug\net7.0\Calculations.Business.runtimeconfig.json
+E:\dotnetmicroservice\Calculations\Calculations.Business\obj\Debug\net7.0\Calculations.Business.genruntimeconfig.cache
