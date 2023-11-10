@@ -10,8 +10,5 @@ namespace General.Api.Controllers
         {
 
         }
-
-
-
     }
 }

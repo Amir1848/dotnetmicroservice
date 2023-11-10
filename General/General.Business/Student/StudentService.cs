@@ -16,6 +16,15 @@ namespace General.Business
         {
         }
 
+        public void AddStudentToCourse(List<StudentCourse> studentCourses)
+        {
+            foreach (var item in studentCourses)
+            {
+                this._dbContext.StudentCourse.Add(item);   
+            }
+            this._dbContext.SaveChanges();
+        }
+
         public override StudentViewModel FetchByID(long id)
         {
             return FetchAll().Where(p => p.ID == id).Select(propa => new StudentViewModel
