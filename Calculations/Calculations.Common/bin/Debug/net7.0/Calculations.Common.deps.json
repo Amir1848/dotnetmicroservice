@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Calculations.Common/1.0.0": {
+        "dependencies": {
+          "FUM.BaseCommon": "1.0.0"
+        },
+        "runtime": {
+          "Calculations.Common.dll": {}
+        }
+      },
+      "FUM.BaseCommon/1.0.0": {
+        "runtime": {
+          "FUM.BaseCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Calculations.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FUM.BaseCommon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

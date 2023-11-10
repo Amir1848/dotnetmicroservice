@@ -9,7 +9,6 @@ namespace General.Common
 {
     public class StudentCourse : Entity, IViewModel
     {
-        public long Id { get; set; }
         public long StudentRef { get; set; }
         public long CourseRef { get; set; }
         public ClassRole Role { get; set; }
