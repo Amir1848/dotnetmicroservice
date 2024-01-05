@@ -2,9 +2,26 @@ package main
 
 import (
 	"log"
+	"os"
 
+	"github.com/joho/godotenv"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
+
+func init() {
+	configFile := ""
+	apiMode := os.Getenv("API_MODE")
+	if apiMode == "production" {
+		configFile = "production.env"
+	} else {
+		configFile = "development.env"
+	}
+
+	err := godotenv.Load(configFile)
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
+}
 
 func failOnError(err error, msg string) {
 	if err != nil {
@@ -13,7 +30,9 @@ func failOnError(err error, msg string) {
 }
 
 func main() {
-	conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
+	rabbitMqUrl := os.Getenv("RABBITMQ")
+
+	conn, err := amqp.Dial(rabbitMqUrl)
 	failOnError(err, "Failed to connect to RabbitMQ")
 
 	defer conn.Close()

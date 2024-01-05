@@ -38,10 +38,10 @@ namespace General.Common.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<long>("LessonID")
+                    b.Property<long>("LessonRef")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("LessonRef")
+                    b.Property<long>("TermRef")
                         .HasColumnType("bigint");
 
                     b.Property<string>("Title")
@@ -50,7 +50,9 @@ namespace General.Common.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("LessonID");
+                    b.HasIndex("LessonRef");
+
+                    b.HasIndex("TermRef");
 
                     b.ToTable("Courses");
                 });
@@ -109,26 +111,20 @@ namespace General.Common.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("ID"));
 
-                    b.Property<long>("CourseID")
-                        .HasColumnType("bigint");
-
                     b.Property<long>("CourseRef")
                         .HasColumnType("bigint");
 
                     b.Property<int>("Role")
                         .HasColumnType("integer");
 
-                    b.Property<long>("StudentID")
-                        .HasColumnType("bigint");
-
                     b.Property<long>("StudentRef")
                         .HasColumnType("bigint");
 
                     b.HasKey("ID");
 
-                    b.HasIndex("CourseID");
+                    b.HasIndex("CourseRef");
 
-                    b.HasIndex("StudentID");
+                    b.HasIndex("StudentRef");
 
                     b.ToTable("StudentCourse");
                 });
@@ -159,31 +155,59 @@ namespace General.Common.Migrations
             modelBuilder.Entity("General.Common.Course", b =>
                 {
                     b.HasOne("General.Common.Lesson", "Lesson")
-                        .WithMany()
-                        .HasForeignKey("LessonID")
+                        .WithMany("Courses")
+                        .HasForeignKey("LessonRef")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("General.Common.Term", "Term")
+                        .WithMany("Courses")
+                        .HasForeignKey("TermRef")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Lesson");
+
+                    b.Navigation("Term");
                 });
 
             modelBuilder.Entity("General.Common.StudentCourse", b =>
                 {
                     b.HasOne("General.Common.Course", "Course")
-                        .WithMany()
-                        .HasForeignKey("CourseID")
+                        .WithMany("StudentCourses")
+                        .HasForeignKey("CourseRef")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("General.Common.Student", "Student")
-                        .WithMany()
-                        .HasForeignKey("StudentID")
+                        .WithMany("StudentCourses")
+                        .HasForeignKey("StudentRef")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Course");
 
                     b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("General.Common.Course", b =>
+                {
+                    b.Navigation("StudentCourses");
+                });
+
+            modelBuilder.Entity("General.Common.Lesson", b =>
+                {
+                    b.Navigation("Courses");
+                });
+
+            modelBuilder.Entity("General.Common.Student", b =>
+                {
+                    b.Navigation("StudentCourses");
+                });
+
+            modelBuilder.Entity("General.Common.Term", b =>
+                {
+                    b.Navigation("Courses");
                 });
 #pragma warning restore 612, 618
         }

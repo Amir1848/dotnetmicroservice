@@ -78,3 +78,6 @@ E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\routes\ocelot.fee
 E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\routes\ocelot.global.json
 E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\routes\ocelot.student.dev.json
 E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\ocelot.json
+E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\routes\ocelot.course.dev.json
+E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\routes\ocelot.lesson.dev.json
+E:\dotnetmicroservice\MainGateway\MainGateway\bin\Debug\net7.0\routes\ocelot.term.dev.json

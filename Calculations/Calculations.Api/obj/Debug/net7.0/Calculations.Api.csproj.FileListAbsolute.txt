@@ -56,3 +56,13 @@ E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Humanizer.d
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
 E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\System.CodeDom.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Google.Protobuf.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Grpc.Core.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Grpc.Core.Api.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Grpc.Net.Client.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\Grpc.Net.Common.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+E:\dotnetmicroservice\Calculations\Calculations.Api\bin\Debug\net7.0\runtimes\win-x86\native\grpc_csharp_ext.x86.dll

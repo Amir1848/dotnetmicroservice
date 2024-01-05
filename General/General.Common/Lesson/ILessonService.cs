@@ -9,5 +9,6 @@ namespace General.Common
 {
     public interface ILessonService : IServiceBase<Lesson, Lesson>
     {
+        Dictionary<long, string>  FetchLessonsWithTitles(IEnumerable<long> ids);
     }
 }

@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gb2ZXbyrdtd5pHlaAGz5K6PPNUbtYlEE9nu9DED4+VjPh+dsmsq8gO6D1XQ4IaBDMfDGAg+xazsNeCNRYHPmFw==",
+  "dgSpecHash": "nqvSdbEUuEAA/ioz81YbFZnjLR68mNdIgr+ntHB62hwduOcKQWH4Jqgvo/6XvddikWC7aVerXuWz3oTCEJVgKw==",
   "success": true,
   "projectFilePath": "E:\\dotnetmicroservice\\Calculations\\Calculations.Api\\Calculations.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\google.protobuf\\3.25.0\\google.protobuf.3.25.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.core\\2.46.6\\grpc.core.2.46.6.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.core.api\\2.59.0\\grpc.core.api.2.59.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.net.client\\2.59.0\\grpc.net.client.2.59.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.net.common\\2.59.0\\grpc.net.common.2.59.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",

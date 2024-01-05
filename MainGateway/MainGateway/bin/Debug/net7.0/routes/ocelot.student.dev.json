@@ -47,6 +47,18 @@
       ],
       "UpstreamPathTemplate": "/api/student/delete/{id}",
       "UpstreamHttpMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/student/AddStudentToCourse",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/AddStudentToCourse",
+      "UpstreamHttpMethod": [ "Post" ]
     }
   ]
 }

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace General.Common
@@ -13,8 +14,10 @@ namespace General.Common
         public long CourseRef { get; set; }
         public ClassRole Role { get; set; }
 
-        public virtual Student Student { get; set; }
-        public virtual Course Course { get; set; }  
+        [JsonIgnore]
+        internal virtual Student Student { get; set; }
+        [JsonIgnore]
+        internal virtual Course Course { get; set; }  
     }
 
     public enum ClassRole

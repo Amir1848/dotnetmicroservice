@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "LabHI3fyce7N1kP6DvlX/X/B+7idZCO06HoevYfl698zLCwaF6KjMJUvCz1v0jb66sl9Rrcb1+3kvmRY19Wt+g==",
+  "dgSpecHash": "l3GNCQ8Xj48Qf+watDAcmY1XEtNum0VdGlJRimWRT7yvUsgJUXejTtf6WQ+UW0n/HkzDy/w1qGHNpjf9k/JdmA==",
   "success": true,
   "projectFilePath": "E:\\dotnetmicroservice\\Calculations\\Calculations.Business\\Calculations.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\google.protobuf\\3.25.0\\google.protobuf.3.25.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.core\\2.46.6\\grpc.core.2.46.6.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.core.api\\2.59.0\\grpc.core.api.2.59.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.net.client\\2.59.0\\grpc.net.client.2.59.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.net.common\\2.59.0\\grpc.net.common.2.59.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\grpc.tools\\2.59.0\\grpc.tools.2.59.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",

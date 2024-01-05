@@ -121,3 +121,10 @@ E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Microsoft.EntityFrame
 E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
 E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\System.CodeDom.dll
 E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\RabbitMQ.Client.dll
+E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Google.Protobuf.dll
+E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Grpc.Core.Api.dll
+E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Grpc.Net.Client.dll
+E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+E:\dotnetmicroservice\General\General.Api\bin\Debug\net7.0\Grpc.Net.Common.dll

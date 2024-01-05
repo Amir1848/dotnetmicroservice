@@ -19,5 +19,10 @@ namespace General.Business
         {
             return FetchEntityByID(id);
         }
+
+        public Dictionary<long, string> FetchLessonsWithTitles(IEnumerable<long> ids)
+        {
+            return FetchAll().Where(p => ids.Contains(p.ID)).ToDictionary(p => p.ID, p => p.Title);
+        }
     }
 }

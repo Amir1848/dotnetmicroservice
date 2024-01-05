@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "Calculations.Business.Protos";
+
+package calculations;
+
+message LessonIdWithTitle {
+	int64 id = 1;	
+	string title = 2;
+}
+
+message GetLessonTitlesReq {
+	repeated int64 ids = 1;
+}
+
+message GetLessonTitlesRes {
+	repeated LessonIdWithTitle titles = 1;
+}
+
+service LessonHelper {
+	rpc GetLessonTitles(GetLessonTitlesReq) returns (GetLessonTitlesRes) {};
+}

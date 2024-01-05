@@ -6,5 +6,7 @@ namespace General.Common
     {
         public string Title { get; set; }
         public string Description { get; set; }
+
+        internal virtual List<Course> Courses { get; set; }
     }
 }

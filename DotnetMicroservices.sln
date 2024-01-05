@@ -23,11 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainGateway", "MainGateway\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculations", "Calculations", "{1A6FF08A-0A76-4E2A-8E37-2ED12F348886}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations.Api", "Calculations\Calculations.Api\Calculations.Api.csproj", "{6F2E2ED4-0820-41CF-A01F-E812F343B586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations.Api", "Calculations\Calculations.Api\Calculations.Api.csproj", "{6F2E2ED4-0820-41CF-A01F-E812F343B586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations.Common", "Calculations\Calculations.Common\Calculations.Common.csproj", "{CE27FF26-393D-4043-BC48-749AE30237E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations.Common", "Calculations\Calculations.Common\Calculations.Common.csproj", "{CE27FF26-393D-4043-BC48-749AE30237E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations.Business", "Calculations\Calculations.Business\Calculations.Business.csproj", "{F7638B9C-4810-41DF-8FED-E96D093519B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations.Business", "Calculations\Calculations.Business\Calculations.Business.csproj", "{F7638B9C-4810-41DF-8FED-E96D093519B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -19,6 +19,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "Grpc": {
+      "Url": "http://localhost:5003",
+      "Protocols": "Http2"
+    },
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,
