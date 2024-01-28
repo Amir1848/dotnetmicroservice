@@ -10,7 +10,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/term/get/{id}",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/term/Save",
@@ -22,7 +23,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/term/save",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/term/Update",
@@ -34,7 +36,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/term/update",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/term/Delete?id={id}",
@@ -46,7 +49,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/term/delete/{id}",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
     }
   ]
 }

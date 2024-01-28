@@ -13,10 +13,15 @@ namespace General.Api.Controllers
         public StudentController(IStudentService service): base(service) { }
 
         [HttpPost]
-        public IActionResult AddStudentToCourse([FromBody] List<StudentCourse> studentCourses)
+        public IActionResult AddStudentToCourse([FromBody] A a)
         {
-            this._service.AddStudentToCourse(studentCourses);
+            this._service.AddStudentToCourse(a.StudentCourses);
             return Ok();
         }
+    }
+
+    public class A
+    {
+        public List<StudentCourse> StudentCourses { get; set; }
     }
 }

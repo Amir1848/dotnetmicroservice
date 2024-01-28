@@ -42,7 +42,7 @@ namespace FUM.BaseApi
         }
 
         [HttpDelete]
-        public virtual IActionResult Delete(long id)
+        public virtual IActionResult Delete( long id)
         {
             _service.Delete(id);
             return Ok();

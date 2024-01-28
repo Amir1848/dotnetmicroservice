@@ -10,7 +10,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/lesson/get/{id}",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/lesson/Save",
@@ -22,7 +23,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/lesson/save",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/lesson/Update",
@@ -34,7 +36,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/lesson/update",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/lesson/Delete?id={id}",
@@ -46,7 +49,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/lesson/delete/{id}",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
     }
   ]
 }

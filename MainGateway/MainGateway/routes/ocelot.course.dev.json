@@ -10,7 +10,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/course/get/{id}",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/course/Save",
@@ -22,7 +23,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/course/save",
-      "UpstreamHttpMethod": [ "Post" ]
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/course/Update",
@@ -34,7 +36,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/course/update",
-      "UpstreamHttpMethod": [ "Put" ]
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
     },
     {
       "DownstreamPathTemplate": "/course/Delete?id={id}",
@@ -46,7 +49,8 @@
         }
       ],
       "UpstreamPathTemplate": "/api/course/delete/{id}",
-      "UpstreamHttpMethod": [ "Delete" ]
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
     }
   ]
 }
