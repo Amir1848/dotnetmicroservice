@@ -18,7 +18,6 @@ D:\uni\dotnetmicroservice\General\General.Business\obj\Debug\net7.0\refint\Gener
 D:\uni\dotnetmicroservice\General\General.Business\obj\Debug\net7.0\General.Business.pdb
 D:\uni\dotnetmicroservice\General\General.Business\obj\Debug\net7.0\ref\General.Business.dll
 E:\dotnetmicroservice\General\General.Business\bin\Debug\net7.0\General.Business.deps.json
-E:\dotnetmicroservice\General\General.Business\bin\Debug\net7.0\General.Business.dll
 E:\dotnetmicroservice\General\General.Business\bin\Debug\net7.0\General.Business.pdb
 E:\dotnetmicroservice\General\General.Business\bin\Debug\net7.0\FUM.BaseBusiness.dll
 E:\dotnetmicroservice\General\General.Business\bin\Debug\net7.0\FUM.BaseCommon.dll

@@ -11,6 +11,10 @@ namespace General.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+
+
+
             builder.Services.AddDbContext<GeneralDbContext>();
             builder.Services.AddScoped<IStudentService, StudentService>();
             builder.Services.AddScoped<ITermService, TermService>();
@@ -18,7 +22,7 @@ namespace General.Api
             builder.Services.AddScoped<ILessonService, LessonService>();
 
             builder.Services.AddControllers();
-            builder.Services.AddGrpc();
+            //builder.Services.AddGrpc();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -41,7 +45,7 @@ namespace General.Api
 
             app.UseRouting();
 
-            app.MapGrpcService<LessonHelperService>();
+            //app.MapGrpcService<LessonHelperService>();
             app.MapControllers();
 
 

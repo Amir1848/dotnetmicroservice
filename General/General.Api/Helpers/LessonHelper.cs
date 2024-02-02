@@ -17,21 +17,23 @@ namespace General.Api
 
         public override Task<GetLessonTitlesRes> GetLessonTitles(GetLessonTitlesReq request, ServerCallContext context)
         {
-            var idTitleDic = this.service.FetchLessonsWithTitles(request.Ids);
-            var idTitles = new RepeatedField<LessonIdWithTitle>();
-            foreach (var item in idTitleDic)
-            {
-                idTitles.Add(new LessonIdWithTitle()
-                {
-                    Id = item.Key,
-                    Title = item.Value
-                });
-            }
+            //var idTitleDic = this.service.FetchLessonsWithTitles(request.Ids);
+            //var idTitles = new RepeatedField<LessonIdWithTitle>();
+            //foreach (var item in idTitleDic)
+            //{
+            //    idTitles.Add(new LessonIdWithTitle()
+            //    {
+            //        Id = item.Key,
+            //        Title = item.Value
+            //    });
+            //}
 
-            return Task.FromResult(new GetLessonTitlesRes()
-            {
-                Titles = { idTitles },
-            });
+            //return Task.FromResult(new GetLessonTitlesRes()
+            //{
+            //    Titles = { idTitles },
+            //});
+            Console.WriteLine(request.Ids);
+            return Task.FromResult(new GetLessonTitlesRes());
         }
     }
 }

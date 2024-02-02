@@ -12,4 +12,10 @@
     <ProjectReference Include="..\General.Common\General.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="General.Business">
+      <HintPath>bin\Debug\net7.0\General.Business.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
