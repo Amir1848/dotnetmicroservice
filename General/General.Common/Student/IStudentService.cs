@@ -1,4 +1,5 @@
 ﻿using Common;
+using NpgsqlTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,9 @@ namespace General.Common
     public interface IStudentService: IServiceBase<Student, StudentViewModel>
     {
         void AddStudentToCourse(List<StudentCourse> studentCourses);
+
+        List<TeachingAssistantStudentViewModel> GetTeachingAssistants(long termId);
+
+        IQueryable<StudentCourse> FetchAllStudentCourses();
     }
 }

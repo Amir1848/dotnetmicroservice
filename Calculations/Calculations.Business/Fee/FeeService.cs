@@ -1,5 +1,4 @@
 ﻿using Calculations.Business.DbContext;
-using Calculations.Business.Protos;
 using Calculations.Common;
 using FUM.BaseBusiness.Services;
 using Grpc.Net.Client;
@@ -17,25 +16,27 @@ namespace Calculations.Business
 
         public override FeeViewModel FetchByID(long id)
         {
-            var channel = GrpcChannel.ForAddress("http://localhost:5003");
-            var client = new LessonHelper.LessonHelperClient(channel);
+            //var channel = GrpcChannel.ForAddress("http://localhost:5003");
+            //var client = new LessonHelper.LessonHelperClient(channel);
 
-            var lessontitle = client.GetLessonTitles(new GetLessonTitlesReq()
-            {
-                Ids = { id },
+            //var lessontitle = client.GetLessonTitles(new GetLessonTitlesReq()
+            //{
+            //    Ids = { id },
 
-            });
+            //});
 
-            var result = FetchAll().Where(p => p.ID == id).Select(p => new FeeViewModel
-            {
-                ID = p.ID,
-                Amount = p.Amount,
-                LessonRef = p.LessonRef,
-            }).Single();
+            //var result = FetchAll().Where(p => p.ID == id).Select(p => new FeeViewModel
+            //{
+            //    ID = p.ID,
+            //    Amount = p.Amount,
+            //    LessonRef = p.LessonRef,
+            //}).Single();
 
-            result.LessonTitle = lessontitle.Titles[0].Title;
+            //result.LessonTitle = lessontitle.Titles[0].Title;
 
-            return result;
+            //return result;
+
+            throw new NotImplementedException();
         }
     }
 }

@@ -27,17 +27,19 @@ namespace General.Grpc.Protos {
             "ChVQcm90b3Mvc3R1ZGVudHMucHJvdG8iLgobR2V0QWxsVGVhY2hpbmdBc3Np",
             "c3RhbnRzUmVxEg8KB3Rlcm1faWQYASABKAMiRwoVQWxsVGVhY2hpbmdBc3Np",
             "c3RhbnRzEi4KEnRlYWNoaW5nQXNzaXN0YW50cxgBIAMoCzISLlRlYWNoaW5n",
-            "QXNzaXN0YW50IjUKEVRlYWNoaW5nQXNzaXN0YW50EgoKAmlkGAEgASgDEhQK",
-            "DHN0dWRlbnRfY29kZRgCIAEoCTJdCgdTdHVkZW50ElIKGEdldEFsbFRlYWNo",
-            "aW5nQXNzaXN0YW50cxIcLkdldEFsbFRlYWNoaW5nQXNzaXN0YW50c1JlcRoW",
-            "LkFsbFRlYWNoaW5nQXNzaXN0YW50cyIAQhaqAhNHZW5lcmFsLkdycGMuUHJv",
-            "dG9zYgZwcm90bzM="));
+            "QXNzaXN0YW50IpABChFUZWFjaGluZ0Fzc2lzdGFudBIKCgJpZBgBIAEoAxIU",
+            "CgxzdHVkZW50X2NvZGUYAiABKAkSFAoMc3R1ZGVudF9uYW1lGAMgASgJEhkK",
+            "EXN0dWRlbnRfbGFzdF9uYW1lGAQgASgJEhQKDGNvdXJzZV90aXRsZRgFIAEo",
+            "CRISCgp0ZXJtX3RpdGxlGAYgASgJMl0KB1N0dWRlbnQSUgoYR2V0QWxsVGVh",
+            "Y2hpbmdBc3Npc3RhbnRzEhwuR2V0QWxsVGVhY2hpbmdBc3Npc3RhbnRzUmVx",
+            "GhYuQWxsVGVhY2hpbmdBc3Npc3RhbnRzIgBCFqoCE0dlbmVyYWwuR3JwYy5Q",
+            "cm90b3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::General.Grpc.Protos.GetAllTeachingAssistantsReq), global::General.Grpc.Protos.GetAllTeachingAssistantsReq.Parser, new[]{ "TermId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::General.Grpc.Protos.AllTeachingAssistants), global::General.Grpc.Protos.AllTeachingAssistants.Parser, new[]{ "TeachingAssistants" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::General.Grpc.Protos.TeachingAssistant), global::General.Grpc.Protos.TeachingAssistant.Parser, new[]{ "Id", "StudentCode" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::General.Grpc.Protos.TeachingAssistant), global::General.Grpc.Protos.TeachingAssistant.Parser, new[]{ "Id", "StudentCode", "StudentName", "StudentLastName", "CourseTitle", "TermTitle" }, null, null, null, null)
           }));
     }
     #endregion
@@ -447,6 +449,10 @@ namespace General.Grpc.Protos {
     public TeachingAssistant(TeachingAssistant other) : this() {
       id_ = other.id_;
       studentCode_ = other.studentCode_;
+      studentName_ = other.studentName_;
+      studentLastName_ = other.studentLastName_;
+      courseTitle_ = other.courseTitle_;
+      termTitle_ = other.termTitle_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -480,6 +486,54 @@ namespace General.Grpc.Protos {
       }
     }
 
+    /// <summary>Field number for the "student_name" field.</summary>
+    public const int StudentNameFieldNumber = 3;
+    private string studentName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string StudentName {
+      get { return studentName_; }
+      set {
+        studentName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "student_last_name" field.</summary>
+    public const int StudentLastNameFieldNumber = 4;
+    private string studentLastName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string StudentLastName {
+      get { return studentLastName_; }
+      set {
+        studentLastName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "course_title" field.</summary>
+    public const int CourseTitleFieldNumber = 5;
+    private string courseTitle_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string CourseTitle {
+      get { return courseTitle_; }
+      set {
+        courseTitle_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "term_title" field.</summary>
+    public const int TermTitleFieldNumber = 6;
+    private string termTitle_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TermTitle {
+      get { return termTitle_; }
+      set {
+        termTitle_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -497,6 +551,10 @@ namespace General.Grpc.Protos {
       }
       if (Id != other.Id) return false;
       if (StudentCode != other.StudentCode) return false;
+      if (StudentName != other.StudentName) return false;
+      if (StudentLastName != other.StudentLastName) return false;
+      if (CourseTitle != other.CourseTitle) return false;
+      if (TermTitle != other.TermTitle) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -506,6 +564,10 @@ namespace General.Grpc.Protos {
       int hash = 1;
       if (Id != 0L) hash ^= Id.GetHashCode();
       if (StudentCode.Length != 0) hash ^= StudentCode.GetHashCode();
+      if (StudentName.Length != 0) hash ^= StudentName.GetHashCode();
+      if (StudentLastName.Length != 0) hash ^= StudentLastName.GetHashCode();
+      if (CourseTitle.Length != 0) hash ^= CourseTitle.GetHashCode();
+      if (TermTitle.Length != 0) hash ^= TermTitle.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -532,6 +594,22 @@ namespace General.Grpc.Protos {
         output.WriteRawTag(18);
         output.WriteString(StudentCode);
       }
+      if (StudentName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(StudentName);
+      }
+      if (StudentLastName.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(StudentLastName);
+      }
+      if (CourseTitle.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(CourseTitle);
+      }
+      if (TermTitle.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(TermTitle);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -550,6 +628,22 @@ namespace General.Grpc.Protos {
         output.WriteRawTag(18);
         output.WriteString(StudentCode);
       }
+      if (StudentName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(StudentName);
+      }
+      if (StudentLastName.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(StudentLastName);
+      }
+      if (CourseTitle.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(CourseTitle);
+      }
+      if (TermTitle.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(TermTitle);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -565,6 +659,18 @@ namespace General.Grpc.Protos {
       }
       if (StudentCode.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(StudentCode);
+      }
+      if (StudentName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StudentName);
+      }
+      if (StudentLastName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StudentLastName);
+      }
+      if (CourseTitle.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CourseTitle);
+      }
+      if (TermTitle.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TermTitle);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -583,6 +689,18 @@ namespace General.Grpc.Protos {
       }
       if (other.StudentCode.Length != 0) {
         StudentCode = other.StudentCode;
+      }
+      if (other.StudentName.Length != 0) {
+        StudentName = other.StudentName;
+      }
+      if (other.StudentLastName.Length != 0) {
+        StudentLastName = other.StudentLastName;
+      }
+      if (other.CourseTitle.Length != 0) {
+        CourseTitle = other.CourseTitle;
+      }
+      if (other.TermTitle.Length != 0) {
+        TermTitle = other.TermTitle;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -607,6 +725,22 @@ namespace General.Grpc.Protos {
             StudentCode = input.ReadString();
             break;
           }
+          case 26: {
+            StudentName = input.ReadString();
+            break;
+          }
+          case 34: {
+            StudentLastName = input.ReadString();
+            break;
+          }
+          case 42: {
+            CourseTitle = input.ReadString();
+            break;
+          }
+          case 50: {
+            TermTitle = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -628,6 +762,22 @@ namespace General.Grpc.Protos {
           }
           case 18: {
             StudentCode = input.ReadString();
+            break;
+          }
+          case 26: {
+            StudentName = input.ReadString();
+            break;
+          }
+          case 34: {
+            StudentLastName = input.ReadString();
+            break;
+          }
+          case 42: {
+            CourseTitle = input.ReadString();
+            break;
+          }
+          case 50: {
+            TermTitle = input.ReadString();
             break;
           }
         }

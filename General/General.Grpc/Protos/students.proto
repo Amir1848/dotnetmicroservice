@@ -14,6 +14,10 @@ message AllTeachingAssistants {
 message TeachingAssistant{
 	int64 id = 1;
 	string student_code = 2;
+	string student_name = 3;
+	string student_last_name = 4;
+	string course_title = 5;
+	string term_title = 6;
 }
 
 service Student {
