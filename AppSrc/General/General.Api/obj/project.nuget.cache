@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZMErNh9mEzCrDPf5KpxPP+4SRenM7KwlatziMBhGprCXne9pZbEebv1UkCUr3s8Z123h2dI642UkCq+HWCjndQ==",
+  "dgSpecHash": "zfdeWlG5KCNgyrKZHdxMPKoRTcKhKn0pmdFQaM6H+VyD3IqL0fvIN/r25qUpQCkPPpfcaxhmg1K26GrZry0JhQ==",
   "success": true,
   "projectFilePath": "E:\\dotnetmicroservice\\AppSrc\\General\\General.Api\\General.Api.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

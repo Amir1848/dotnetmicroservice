@@ -1,18 +1,13 @@
-# Use an official Golang runtime as a base image
 FROM golang:alpine
 
-# Set the working directory inside the container
 WORKDIR /app
 
-# Copy the local package files to the container's workspace
-COPY . .
-
-# Download and install any dependencies your app needs
+COPY go.mod go.sum ./
 RUN go mod download
 
 
-RUN go build -o main .
+COPY * ./
 
+RUN CGO_ENABLED=0 GOOS=linux go build -o /docker-gs-ping
 
-ENV API_MODE="production"
-CMD sleep 20 && ["./main"]
+CMD ["/docker-gs-ping"]
