@@ -24,8 +24,4 @@
     <ProjectReference Include="..\General.Common\General.Common.csproj" />
   </ItemGroup>
 
-	<ItemGroup>
-		<Protobuf Include="Protos\Lesson.proto" GrpcServices="Server" />
-	</ItemGroup>
-
 </Project>

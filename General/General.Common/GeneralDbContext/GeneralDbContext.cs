@@ -1,8 +1,10 @@
 ﻿using FUM.BaseBusiness.DBContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
@@ -13,6 +15,10 @@ namespace General.Common
 {
     public class GeneralDbContext : FUMBaseDBContext
     {
+        public GeneralDbContext(IConfiguration configuration): base(configuration)
+        {      
+        }
+
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Term> Terms { get; set; }
         public virtual DbSet<Course> Courses { get; set; }
@@ -50,7 +56,8 @@ namespace General.Common
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseNpgsql(@"Host=localhost;Database=FumGeneral;Username=postgres;Password=1");
+            var connectionString = configuration.GetConnectionString("Postgres");
+            optionsBuilder.UseNpgsql(connectionString);
         }
     }
 }

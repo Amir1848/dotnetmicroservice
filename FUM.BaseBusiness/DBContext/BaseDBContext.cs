@@ -7,11 +7,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text;
 using RabbitMQ.Client;
+using Microsoft.Extensions.Configuration;
 
 namespace FUM.BaseBusiness.DBContext
 {
     public class FUMBaseDBContext : DbContext
     {
+        protected readonly IConfiguration configuration;
+        public FUMBaseDBContext(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder); 
@@ -21,7 +28,9 @@ namespace FUM.BaseBusiness.DBContext
 
         private void sendLogToServiceLogger(string message)
         {
-            var factory = new ConnectionFactory { HostName = "localhost",  };
+            var rabbitMqHost = configuration.GetConnectionString("rabbitMq");
+
+            var factory = new ConnectionFactory { HostName = rabbitMqHost };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
 

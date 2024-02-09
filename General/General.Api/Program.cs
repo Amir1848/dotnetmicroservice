@@ -1,6 +1,7 @@
 
 using General.Business;
 using General.Common;
+using Microsoft.EntityFrameworkCore;
 
 namespace General.Api
 {
@@ -11,7 +12,10 @@ namespace General.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.WebHost.UseUrls(new[]
+            {
+                "http://localhost:4999"
+            });
 
 
 
@@ -29,7 +33,7 @@ namespace General.Api
 
             var app = builder.Build();
 
-
+            //app.Configuration.GetValue("")
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -47,8 +51,18 @@ namespace General.Api
 
             //app.MapGrpcService<LessonHelperService>();
             app.MapControllers();
+  
 
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
 
+                var context = services.GetRequiredService<GeneralDbContext>();
+                if (context.Database.GetPendingMigrations().Any())
+                {
+                    context.Database.Migrate();
+                }
+            }
 
             app.Run();
         }
