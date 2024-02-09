@@ -1,0 +1,17 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "general",
+      "Config": [
+        {
+          "Name": "Genral API",
+          "Version": "v1",
+          "Url": "http://localhost:5238/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  }
+}

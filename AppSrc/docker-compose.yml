@@ -1,0 +1,26 @@
+services:
+  rabbit:
+    image: rabbitmq:latest
+    expose:
+      - 5672
+      # - "4369:4369"
+      # - "5671:5671"
+      # - "15691:15691"
+      # - "15692:15692"
+      # - "25672:25672"
+      # - "15672:15672"
+    volumes:
+      - "./rabbitmq:/var/lib/rabbitmq"
+
+  logger:
+    build: 
+      context: ./logger
+      dockerfile: Dockerfile 
+    expose:
+      - 1234
+
+  
+
+
+
+  

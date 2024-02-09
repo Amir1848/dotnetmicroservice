@@ -1,0 +1,69 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/student/get?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/get/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/Save",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/save",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/update",
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/Delete?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/AddStudentToCourse",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/AddStudentToCourse",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
+    }
+  ]
+}

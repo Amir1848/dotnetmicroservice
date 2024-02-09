@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.59.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\FUM.BaseApi\FUM.BaseApi.csproj" />
+    <ProjectReference Include="..\..\FUM.BaseBusiness\FUM.BaseBusiness.csproj" />
+    <ProjectReference Include="..\..\FUM.BaseCommon\FUM.BaseCommon.csproj" />
+    <ProjectReference Include="..\General.Business\General.Business.csproj" />
+    <ProjectReference Include="..\General.Common\General.Common.csproj" />
+  </ItemGroup>
+
+</Project>

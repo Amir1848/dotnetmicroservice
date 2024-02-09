@@ -1,0 +1,56 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/lesson/get?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/lesson/get/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/lesson/Save",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/lesson/save",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/lesson/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/lesson/update",
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/lesson/Delete?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5238
+        }
+      ],
+      "UpstreamPathTemplate": "/api/lesson/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
+    }
+  ]
+}

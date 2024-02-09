@@ -1,2 +1,0 @@
-obj\Debug\net7.0\Protos/Lesson.cs \
-obj\Debug\net7.0\Protos/LessonGrpc.cs: Protos/Lesson.proto

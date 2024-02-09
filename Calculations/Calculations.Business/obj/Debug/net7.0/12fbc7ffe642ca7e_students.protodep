@@ -1,2 +1,0 @@
-obj\Debug\net7.0\Protos/Students.cs \
-obj\Debug\net7.0\Protos/StudentsGrpc.cs: Protos/students.proto
