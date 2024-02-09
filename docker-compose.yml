@@ -5,3 +5,6 @@ services:
       - 5672
     volumes:
       - './rabbitmq-volume:/var/lib/rabbitmq'
+
+  
+  
