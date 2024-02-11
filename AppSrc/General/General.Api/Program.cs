@@ -11,12 +11,6 @@ namespace General.Api
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.WebHost.UseUrls(new[]
-            {
-                "http://localhost:4999"
-            });
-
-
 
             builder.Services.AddDbContext<GeneralDbContext>();
             builder.Services.AddScoped<IStudentService, StudentService>();
@@ -44,7 +38,7 @@ namespace General.Api
 
             app.UseRouting();
 
-                        app.MapControllers();
+            app.MapControllers();
   
 
             using (var scope = app.Services.CreateScope())
