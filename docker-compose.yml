@@ -6,11 +6,20 @@ services:
       - 5672
     volumes:
       - './rabbitmq-volume:/var/lib/rabbitmq'
+    healthcheck:
+      test: [ "CMD", "nc", "-z", "localhost", "5672" ]
+      interval: 5s
+      timeout: 15s
+      retries: 10
 
   fumlogger: 
     build: ./AppSrc/logger
     environment:
       - API_MODE=production
+    depends_on:
+      fumRabbit:
+        condition: service_healthy
+
 
   fumGenralPostgres:
     image: postgres:alpine
@@ -34,23 +43,25 @@ services:
       dockerfile: GenralApi.Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ASPNETCORE_URLS=http://localhost:5000
+      - ASPNETCORE_URLS=http://localhost:6000
     ports:
-      - 6542:5000
+      - "6000:6000"
     depends_on:
-      - fumGenralPostgres
-      - fumRabbit
+      fumGenralPostgres: 
+        condition: service_healthy
+      fumRabbit:
+        condition: service_healthy
 
-  fumgeneralgrpc:
-    build: 
-      context: ./AppSrc
-      dockerfile: GeneralGrpc.Dockerfile
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
-      - ASPNETCORE_URLS=http://localhost:5000
-    depends_on:
-      - fumGenralPostgres
-      - fumRabbit
+  # fumgeneralgrpc:
+  #   build: 
+  #     context: ./AppSrc
+  #     dockerfile: GeneralGrpc.Dockerfile
+  #   environment:
+  #     - ASPNETCORE_ENVIRONMENT=Production
+  #     - ASPNETCORE_URLS=http://localhost:5000
+  #   depends_on:
+  #     - fumGenralPostgres
+  #     - fumRabbit
   
 
 
