@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LCPC09dtKLj+ZNx6nH/hxV1JIsPHbTBlX3CK8nQtUV5q4dz5SMXgIhaFJhWZDGiI8/kj+2Vr56b4Y8L+0rjbEA==",
+  "dgSpecHash": "AHmtfsAkD62pO0Jde1ZF5sPDInbO0m8P/OwfQb8F+Je6zRWz81yoYxLKZUhTOj5oMIAwITz4KT0q3hofY5jOlw==",
   "success": true,
   "projectFilePath": "E:\\dotnetmicroservice\\AppSrc\\General\\General.Common\\General.Common.csproj",
   "expectedPackageFiles": [

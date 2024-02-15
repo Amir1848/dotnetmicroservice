@@ -6114,6 +6114,7 @@
       "FUM.BaseBusiness >= 1.0.0",
       "FUM.BaseCommon >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.12",
+      "Microsoft.EntityFrameworkCore.Relational >= 7.0.12",
       "System.Configuration.ConfigurationManager >= 6.0.1"
     ]
   },
@@ -6166,6 +6167,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.12, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[7.0.12, )"
           },
