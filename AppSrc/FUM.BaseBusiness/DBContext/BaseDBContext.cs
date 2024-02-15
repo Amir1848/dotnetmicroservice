@@ -28,24 +28,24 @@ namespace FUM.BaseBusiness.DBContext
 
         private void sendLogToServiceLogger(string message)
         {
-            var rabbitMqHost = configuration.GetConnectionString("rabbitMq");
+            //var rabbitMqHost = configuration.GetConnectionString("rabbitMq");
 
-            var factory = new ConnectionFactory { HostName = rabbitMqHost };
-            using var connection = factory.CreateConnection();
-            using var channel = connection.CreateModel();
+            //var factory = new ConnectionFactory { HostName = rabbitMqHost };
+            //using var connection = factory.CreateConnection();
+            //using var channel = connection.CreateModel();
 
-            channel.QueueDeclare(queue: "logQuery",
-                     durable: false,
-                     exclusive: false,
-                     autoDelete: false,
-                     arguments: null);
+            //channel.QueueDeclare(queue: "logQuery",
+            //         durable: false,
+            //         exclusive: false,
+            //         autoDelete: false,
+            //         arguments: null);
 
-            var body = Encoding.UTF8.GetBytes(message);
+            //var body = Encoding.UTF8.GetBytes(message);
 
-            channel.BasicPublish(exchange: string.Empty,
-                                 routingKey: "logQuery",
-                                 basicProperties: null,
-                                 body: body);
+            //channel.BasicPublish(exchange: string.Empty,
+            //                     routingKey: "logQuery",
+            //                     basicProperties: null,
+            //                     body: body);
 
         }
     }

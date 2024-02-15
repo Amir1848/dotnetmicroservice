@@ -12,46 +12,46 @@ namespace General.Api
             var builder = WebApplication.CreateBuilder(args);
 
 
-            builder.Services.AddDbContext<GeneralDbContext>();
-            builder.Services.AddScoped<IStudentService, StudentService>();
-            builder.Services.AddScoped<ITermService, TermService>();
-            builder.Services.AddScoped<ICourseService, CourseService>();
-            builder.Services.AddScoped<ILessonService, LessonService>();
+            //builder.Services.AddDbContext<GeneralDbContext>();
+            //builder.Services.AddScoped<IStudentService, StudentService>();
+            //builder.Services.AddScoped<ITermService, TermService>();
+            //builder.Services.AddScoped<ICourseService, CourseService>();
+            //builder.Services.AddScoped<ILessonService, LessonService>();
 
-            builder.Services.AddControllers();
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            //builder.Services.AddControllers();
+            //builder.Services.AddEndpointsApiExplorer();
+            //builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
 
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                Console.WriteLine("development mode");
-            }
-            else
-            {
-                Console.WriteLine("prodution mode");
-            }
+            //if (app.Environment.IsDevelopment())
+            //{
+            //    app.UseSwagger();
+            //    Console.WriteLine("development mode");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("prodution mode");
+            //}
 
 
-            app.UseRouting();
+            //app.UseRouting();
 
-            app.MapControllers();
-  
+            //app.MapControllers();
 
-            using (var scope = app.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
 
-                var context = services.GetRequiredService<GeneralDbContext>();
-                if (context.Database.GetPendingMigrations().Any())
-                {
-                    context.Database.Migrate();
-                }
-            }
+            //using (var scope = app.Services.CreateScope())
+            //{
+            //    var services = scope.ServiceProvider;
 
+            //    var context = services.GetRequiredService<GeneralDbContext>();
+            //    if (context.Database.GetPendingMigrations().Any())
+            //    {
+            //        context.Database.Migrate();
+            //    }
+            //}
+            app.MapGet("/", () => "Hello World!");
             app.Run();
         }
     }
