@@ -73,21 +73,6 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=production
       - ASPNETCORE_URLS=http://*:5000
-    
-#  image: postgres:alpine
-#     environment:
-#       POSTGRES_PASSWORD: 1
-#       POSTGRES_USER: postgres
-#       POSTGRES_DB: FumGeneral
-#     expose:
-#       - 5432
-#     volumes:
-#       - ./fum-general-postgres-volume:/var/lib/postgresql/data
-#     healthcheck:
-#       test: ["CMD-SHELL", "pg_isready -U postgres"]
-#       interval: 10s
-#       timeout: 5s
-#       retries: 5
 
 
   fumCalculationsPostgres:
@@ -100,7 +85,11 @@ services:
       - 5432
     volumes:
       - ./fum-calculations-postgres-volume:/var/lib/postgresql/data
-
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
       
 
   fumcalculationapi:
@@ -110,3 +99,8 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://localhost:5000
+    depends_on:
+      fumCalculationsPostgres: 
+        condition: service_healthy
+      fumRabbit:
+        condition: service_healthy
