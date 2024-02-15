@@ -1,2 +1,3 @@
 ./rabbitmq-volume/*
 ./fum-general-postgres-volume/*
+./fum-calculations-postgres-volume/*
