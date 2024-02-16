@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "Calculations.Grpc.Protos";
+
+message AllLessonInfos {
+	repeated LessonInfo lessons = 1;
+}
+
+message LessonInfo {
+	int64 id = 1;
+	string title = 2;
+}
+
+message LessonTitleReq{
+	repeated int64 lesson_ids = 1;
+}
+
+service Lesson {
+	rpc GetLessonTitles(LessonTitleReq) returns (AllLessonInfos) {}
+}

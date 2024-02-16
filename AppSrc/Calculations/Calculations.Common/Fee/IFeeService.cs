@@ -9,5 +9,6 @@ namespace Calculations.Common
 {
     public interface IFeeService: IServiceBase<Fee, FeeViewModel>
     {
+        public Dictionary<long, decimal> GetLessonFeeDictionary(HashSet<long> lessonIds);
     }
 }

@@ -25,7 +25,8 @@ namespace General.Grpc.Services
                 StudentCode = p.StudentCode,
                 StudentLastName = p.LastName,
                 StudentName = p.FirstName,
-                TermTitle = p.TermTitle
+                TermTitle = p.TermTitle,
+                LessonRef = p.LessonRef
             });
 
             return Task.FromResult(new AllTeachingAssistants

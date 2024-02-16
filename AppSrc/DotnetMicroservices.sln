@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations.Common", "Calc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations.Business", "Calculations\Calculations.Business\Calculations.Business.csproj", "{F7638B9C-4810-41DF-8FED-E96D093519B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "General.Grpc", "General\General.Grpc\General.Grpc.csproj", "{A5335561-EACA-4535-BF0D-7D01BDEA9881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "General.Grpc", "General\General.Grpc\General.Grpc.csproj", "{A5335561-EACA-4535-BF0D-7D01BDEA9881}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

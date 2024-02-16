@@ -9,5 +9,7 @@ namespace Calculations.Common
     public interface ICalculationService
     {
         List<StudentViewModel> GetTeachingAssistantStudents(long termID);
+
+        List<StudentSalaryInfo> CalculateSalaries(long termId);
     }
 }

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Protos\lessons.proto" />
     <None Remove="Protos\students.proto" />
   </ItemGroup>
 
@@ -32,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Protobuf Include="Protos\lessons.proto" />
     <Protobuf Include="Protos\students.proto" />
   </ItemGroup>
 	

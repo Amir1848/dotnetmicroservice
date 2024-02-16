@@ -17,6 +17,7 @@
 
 	<ItemGroup>
 		<Protobuf Include="Protos\students.proto" />
+		<Protobuf Include="Protos\lessons.proto" />
 	</ItemGroup>
 
 </Project>

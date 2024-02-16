@@ -27,19 +27,19 @@ namespace General.Grpc.Protos {
             "ChVQcm90b3Mvc3R1ZGVudHMucHJvdG8iLgobR2V0QWxsVGVhY2hpbmdBc3Np",
             "c3RhbnRzUmVxEg8KB3Rlcm1faWQYASABKAMiRwoVQWxsVGVhY2hpbmdBc3Np",
             "c3RhbnRzEi4KEnRlYWNoaW5nQXNzaXN0YW50cxgBIAMoCzISLlRlYWNoaW5n",
-            "QXNzaXN0YW50IpABChFUZWFjaGluZ0Fzc2lzdGFudBIKCgJpZBgBIAEoAxIU",
+            "QXNzaXN0YW50IqQBChFUZWFjaGluZ0Fzc2lzdGFudBIKCgJpZBgBIAEoAxIU",
             "CgxzdHVkZW50X2NvZGUYAiABKAkSFAoMc3R1ZGVudF9uYW1lGAMgASgJEhkK",
             "EXN0dWRlbnRfbGFzdF9uYW1lGAQgASgJEhQKDGNvdXJzZV90aXRsZRgFIAEo",
-            "CRISCgp0ZXJtX3RpdGxlGAYgASgJMl0KB1N0dWRlbnQSUgoYR2V0QWxsVGVh",
-            "Y2hpbmdBc3Npc3RhbnRzEhwuR2V0QWxsVGVhY2hpbmdBc3Npc3RhbnRzUmVx",
-            "GhYuQWxsVGVhY2hpbmdBc3Npc3RhbnRzIgBCFqoCE0dlbmVyYWwuR3JwYy5Q",
-            "cm90b3NiBnByb3RvMw=="));
+            "CRISCgp0ZXJtX3RpdGxlGAYgASgJEhIKCmxlc3Nvbl9yZWYYByABKAMyXQoH",
+            "U3R1ZGVudBJSChhHZXRBbGxUZWFjaGluZ0Fzc2lzdGFudHMSHC5HZXRBbGxU",
+            "ZWFjaGluZ0Fzc2lzdGFudHNSZXEaFi5BbGxUZWFjaGluZ0Fzc2lzdGFudHMi",
+            "AEIWqgITR2VuZXJhbC5HcnBjLlByb3Rvc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::General.Grpc.Protos.GetAllTeachingAssistantsReq), global::General.Grpc.Protos.GetAllTeachingAssistantsReq.Parser, new[]{ "TermId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::General.Grpc.Protos.AllTeachingAssistants), global::General.Grpc.Protos.AllTeachingAssistants.Parser, new[]{ "TeachingAssistants" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::General.Grpc.Protos.TeachingAssistant), global::General.Grpc.Protos.TeachingAssistant.Parser, new[]{ "Id", "StudentCode", "StudentName", "StudentLastName", "CourseTitle", "TermTitle" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::General.Grpc.Protos.TeachingAssistant), global::General.Grpc.Protos.TeachingAssistant.Parser, new[]{ "Id", "StudentCode", "StudentName", "StudentLastName", "CourseTitle", "TermTitle", "LessonRef" }, null, null, null, null)
           }));
     }
     #endregion
@@ -453,6 +453,7 @@ namespace General.Grpc.Protos {
       studentLastName_ = other.studentLastName_;
       courseTitle_ = other.courseTitle_;
       termTitle_ = other.termTitle_;
+      lessonRef_ = other.lessonRef_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -534,6 +535,18 @@ namespace General.Grpc.Protos {
       }
     }
 
+    /// <summary>Field number for the "lesson_ref" field.</summary>
+    public const int LessonRefFieldNumber = 7;
+    private long lessonRef_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long LessonRef {
+      get { return lessonRef_; }
+      set {
+        lessonRef_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -555,6 +568,7 @@ namespace General.Grpc.Protos {
       if (StudentLastName != other.StudentLastName) return false;
       if (CourseTitle != other.CourseTitle) return false;
       if (TermTitle != other.TermTitle) return false;
+      if (LessonRef != other.LessonRef) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -568,6 +582,7 @@ namespace General.Grpc.Protos {
       if (StudentLastName.Length != 0) hash ^= StudentLastName.GetHashCode();
       if (CourseTitle.Length != 0) hash ^= CourseTitle.GetHashCode();
       if (TermTitle.Length != 0) hash ^= TermTitle.GetHashCode();
+      if (LessonRef != 0L) hash ^= LessonRef.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -610,6 +625,10 @@ namespace General.Grpc.Protos {
         output.WriteRawTag(50);
         output.WriteString(TermTitle);
       }
+      if (LessonRef != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(LessonRef);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -644,6 +663,10 @@ namespace General.Grpc.Protos {
         output.WriteRawTag(50);
         output.WriteString(TermTitle);
       }
+      if (LessonRef != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(LessonRef);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -671,6 +694,9 @@ namespace General.Grpc.Protos {
       }
       if (TermTitle.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(TermTitle);
+      }
+      if (LessonRef != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(LessonRef);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -701,6 +727,9 @@ namespace General.Grpc.Protos {
       }
       if (other.TermTitle.Length != 0) {
         TermTitle = other.TermTitle;
+      }
+      if (other.LessonRef != 0L) {
+        LessonRef = other.LessonRef;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -741,6 +770,10 @@ namespace General.Grpc.Protos {
             TermTitle = input.ReadString();
             break;
           }
+          case 56: {
+            LessonRef = input.ReadInt64();
+            break;
+          }
         }
       }
     #endif
@@ -778,6 +811,10 @@ namespace General.Grpc.Protos {
           }
           case 50: {
             TermTitle = input.ReadString();
+            break;
+          }
+          case 56: {
+            LessonRef = input.ReadInt64();
             break;
           }
         }

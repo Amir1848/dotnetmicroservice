@@ -13,11 +13,14 @@ namespace Calculations.Api
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            var generalGrpcApi = builder.Configuration.GetConnectionString("generalGrpc");
+
             builder.Services.AddDbContext<CalculationsDbContext>();
             builder.Services.AddScoped<IFeeService, FeeService>();
             builder.Services.AddScoped<ICalculationService, CalculationService>();
-            builder.Services.AddSingleton<StudentHelper>(new StudentHelper(GrpcChannel.ForAddress("http://localhost:5204")));
-            
+            builder.Services.AddSingleton<StudentHelper>(new StudentHelper(GrpcChannel.ForAddress(generalGrpcApi)));
+            builder.Services.AddSingleton<LessonHelper>(new LessonHelper(GrpcChannel.ForAddress(generalGrpcApi)));
+
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             var app = builder.Build();
@@ -25,6 +28,15 @@ namespace Calculations.Api
             app.UseRouting();
 
             app.MapControllers();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+
+                var context = services.GetRequiredService<CalculationsDbContext>();
+
+                CalculationsDBMigrator.Migrate(context);
+            }
 
             app.Run();
         }

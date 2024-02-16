@@ -1,0 +1,301 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Term/Get?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/term/get/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/term/Save",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/term/save",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/term/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/term/update",
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/term/Delete?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/term/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/get?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/get/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/Save",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/save",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/update",
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/Delete?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/student/AddStudentToCourse",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/AddStudentToCourse",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/lesson/get?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/lesson/get/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/lesson/Save",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/lesson/save",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/lesson/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/lesson/update",
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/lesson/Delete?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/lesson/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/fee/get?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 5170
+        }
+      ],
+      "UpstreamPathTemplate": "/api/fee/get/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/fee/Save",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 5170
+        }
+      ],
+      "UpstreamPathTemplate": "/api/fee/save",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/fee/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 5170
+        }
+      ],
+      "UpstreamPathTemplate": "/api/fee/update",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/fee/Delete?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 5170
+        }
+      ],
+      "UpstreamPathTemplate": "/api/fee/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/course/get?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/course/get/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/course/Save",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/course/save",
+      "UpstreamHttpMethod": [ "Post" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/course/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/course/update",
+      "UpstreamHttpMethod": [ "Put" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/course/Delete?id={id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/course/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "SwaggerKey": "general"
+    },
+    {
+      "DownstreamPathTemplate": "/calculation/GetTeachingAssistantStudents?termId={termId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumgeneralapi",
+          "Port": 5170
+        }
+      ],
+      "UpstreamPathTemplate": "/api/calculation/GetTeachingAssistantStudents/{termId}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "calculations"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "general",
+      "Config": [
+        {
+          "Name": "Genral API",
+          "Version": "v1",
+          "Url": "http://localhost:5238/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://*:5000"
+  }
+}

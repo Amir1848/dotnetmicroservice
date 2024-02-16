@@ -65,7 +65,8 @@ namespace General.Business
                                 LastName = st.LastName,
                                 StudentCode = st.StudentCode,
                                 Id = st.ID,
-                                TermTitle = term.Title
+                                TermTitle = term.Title,
+                                LessonRef = course.LessonRef
                             }).ToList();
 
             return students;

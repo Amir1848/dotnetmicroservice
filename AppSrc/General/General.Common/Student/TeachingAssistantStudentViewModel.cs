@@ -14,5 +14,6 @@ namespace General.Common
         public string StudentCode { get; set; }
         public string CourseName { get; set; }
         public string TermTitle { get; set; }
+        public long LessonRef { get; set; }
     }
 }

@@ -18,5 +18,11 @@ namespace Calculations.Api.Controllers
         {
             return Ok(_calculationService.GetTeachingAssistantStudents(termId));
         }
+
+        [HttpGet]
+        public IActionResult CalculateSalaries(long termId)
+        {
+            return Ok(_calculationService.CalculateSalaries(termId));
+        }
     }
 }

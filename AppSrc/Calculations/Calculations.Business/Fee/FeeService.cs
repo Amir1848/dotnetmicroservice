@@ -1,5 +1,7 @@
 ﻿using Calculations.Business.DbContext;
+using Calculations.Business.Helpers;
 using Calculations.Common;
+using Calculations.Grpc.Protos;
 using FUM.BaseBusiness.Services;
 using Grpc.Net.Client;
 using System;
@@ -12,31 +14,35 @@ namespace Calculations.Business
 {
     public class FeeService : ServiceBase<Fee, FeeViewModel, CalculationsDbContext>, IFeeService
     {
-        public FeeService(CalculationsDbContext ctx) :base(ctx) { }
+        private readonly LessonHelper _lessonHelper;
+        public FeeService(CalculationsDbContext ctx, LessonHelper lessonHelper) :base(ctx) 
+        {
+            _lessonHelper = lessonHelper;
+        }
 
         public override FeeViewModel FetchByID(long id)
         {
-            //var channel = GrpcChannel.ForAddress("http://localhost:5003");
-            //var client = new LessonHelper.LessonHelperClient(channel);
+            var result = FetchAll().Where(p => p.ID == id).Select(p => new FeeViewModel
+            {
+                ID = p.ID,
+                Amount = p.Amount,
+                LessonRef = p.LessonRef,
+            }).Single();
 
-            //var lessontitle = client.GetLessonTitles(new GetLessonTitlesReq()
-            //{
-            //    Ids = { id },
+            var titles = _lessonHelper.GetLessonTitles(new LessonTitleReq()
+            {
+                LessonIds = { id },
+            });
 
-            //});
+            result.LessonTitle = titles.Lessons[0].Title;
+            return result;
+        }
 
-            //var result = FetchAll().Where(p => p.ID == id).Select(p => new FeeViewModel
-            //{
-            //    ID = p.ID,
-            //    Amount = p.Amount,
-            //    LessonRef = p.LessonRef,
-            //}).Single();
-
-            //result.LessonTitle = lessontitle.Titles[0].Title;
-
-            //return result;
-
-            throw new NotImplementedException();
+        public Dictionary<long, decimal> GetLessonFeeDictionary(HashSet<long> lessonIds)
+        {
+            var result = FetchAll().Where(p => lessonIds.Contains(p.LessonRef)).
+                ToDictionary(p => p.LessonRef, p => p.Amount);
+            return result;
         }
     }
 }
