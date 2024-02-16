@@ -38,10 +38,10 @@ namespace Calculations.Business.Calculation
                 if (StudentIdLessonsMap.ContainsKey(ta.Id))
                 {
                     StudentIdLessonsMap[ta.Id].Add(ta.LessonRef);
-                    studentIdNameMap[ta.Id] = ta.StudentName + " " + ta.StudentLastName;
                 }
                 else
                 {
+                    studentIdNameMap[ta.Id] = ta.StudentName + " " + ta.StudentLastName;
                     StudentIdLessonsMap[ta.Id] = new List<long>() { ta.LessonRef };
                 }
             }

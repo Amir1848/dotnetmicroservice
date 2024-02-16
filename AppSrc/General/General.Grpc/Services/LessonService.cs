@@ -5,10 +5,10 @@ using Lesson = General.Grpc.Protos.Lesson;
 
 namespace General.Grpc.Services
 {
-    public class LessonsService: Lesson.LessonBase
+    public class LessonsGrpcService: Lesson.LessonBase
     {
         private readonly ILessonService _lessonService;
-        public LessonsService(ILessonService lessonService) {
+        public LessonsGrpcService(ILessonService lessonService) {
             _lessonService = lessonService;
         }
 

@@ -98,7 +98,7 @@ services:
       dockerfile: CalculationsApi.Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ASPNETCORE_URLS=http://localhost:5000
+      - ASPNETCORE_URLS=http://*:80
     depends_on:
       fumCalculationsPostgres: 
         condition: service_healthy

@@ -16,11 +16,5 @@ namespace Calculations.Business.DbContext
         {
         }
         public DbSet<Fee> Fees { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseNpgsql(@"Host=localhost;Database=FumCalculations;Username=postgres;Password=1");
-        }
     }
 }

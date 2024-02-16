@@ -52,12 +52,5 @@ namespace General.Common
            .HasForeignKey(e => e.CourseRef)
            .HasPrincipalKey(e => e.ID);
         }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-            var connectionString = configuration.GetConnectionString("Postgres");
-            optionsBuilder.UseNpgsql(connectionString);
-        }
     }
 }

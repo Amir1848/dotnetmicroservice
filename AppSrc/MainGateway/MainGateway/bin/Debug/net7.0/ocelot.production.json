@@ -174,8 +174,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "fumgeneralapi",
-          "Port": 5170
+          "Host": "fumcalculationapi",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/api/fee/get/{id}",
@@ -186,8 +186,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "fumgeneralapi",
-          "Port": 5170
+          "Host": "fumcalculationapi",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/api/fee/save",
@@ -198,8 +198,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "fumgeneralapi",
-          "Port": 5170
+          "Host": "fumcalculationapi",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/api/fee/update",
@@ -210,8 +210,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "fumgeneralapi",
-          "Port": 5170
+          "Host": "fumcalculationapi",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/api/fee/delete/{id}",
@@ -274,11 +274,24 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "fumgeneralapi",
-          "Port": 5170
+          "Host": "fumcalculationapi",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/api/calculation/GetTeachingAssistantStudents/{termId}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "calculations"
+    },
+    {
+      "DownstreamPathTemplate": "/calculation/CalculateSalaries?termId={termId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fumcalculationapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/calculation/CalculateSalaries/{termId}",
       "UpstreamHttpMethod": [ "GET" ],
       "SwaggerKey": "calculations"
     }
@@ -290,7 +303,7 @@
         {
           "Name": "Genral API",
           "Version": "v1",
-          "Url": "http://localhost:5238/swagger/v1/swagger.json"
+          "Url": "http://localhost:80/swagger/v1/swagger.json"
         }
       ]
     }
